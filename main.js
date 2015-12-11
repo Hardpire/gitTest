@@ -1,5 +1,4 @@
-; (function () {
-	
+
 	var eventCrossFunction = {
 		addEvent: function (element, type, func) {
 			
@@ -42,7 +41,6 @@
 	};
 
 
-})();
 
 
 
