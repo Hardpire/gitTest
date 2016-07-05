@@ -5,7 +5,8 @@ var func = function(a, b){//this = window;
 
 var myObj = {// this = myObj
 	func:function(a, b){//this = obj; public
-	return a+b;}
+	return a+b;
+	}
 }
 
 var myObj = (function(){
@@ -16,7 +17,8 @@ var myObj = (function(){
 	
 	return {
 		func:function(a, b){//this = obj; public
-		return a+b;},
+		return a+b;
+		}					,
 		funcPublic: funcPriv
 	}	
 	
